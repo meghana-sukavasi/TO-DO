@@ -1,0 +1,84 @@
+  .todo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .todo-list {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f0f0; 
+    margin-right: 20px; 
+  }
+  
+  .add-todo {
+    width: 200px; 
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f0f0f0; 
+    margin-left: 20px; 
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 10px;
+  }
+  
+  .task-list li button {
+    margin-left: 10px;
+    padding: 10px 10px;
+    background-color: #070808; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .task-item {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .date-picker-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .times-new-roman {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .task-name {
+    font-size: 24px; /* Adjust font size as needed */
+  }
+  
+  .task-date {
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  .calendar-icon {
+    margin-right: 10px; /* Adjust the space between the icon and the date picker */
+  }
+  
+  .add-todo input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .add-todo button {
+    padding: 10px 20px;
+    background-color: #070808; /* Example button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-todo button:hover {
+    background-color: #0056b3; /* Example button color on hover */
+  }
+  
